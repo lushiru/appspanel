@@ -15,10 +15,8 @@ export function ColaboradoresScreen() {
   const navigation = useNavigation();
 
     useEffect(() => {
-        
-            getColaboradores();            
-        
-    }, []);
+        if(isVisible) getColaboradores();                    
+    }, [isVisible]);
 
     const getColaboradores = async () => {
       try {

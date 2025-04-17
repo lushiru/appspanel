@@ -3,6 +3,7 @@ const home = {
     home: "home",
     colaboradores: "colaboradores",
     colaboradoresCrear: "colaboradores-crear",
+    colaboradoresEditar: "colaboradores-editar",
     gestionpersonas: "gestionpersonas",
     search: "search",
   };

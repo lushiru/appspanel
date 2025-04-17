@@ -6,6 +6,9 @@ export const ENV = {
       USERS_ME: "user",
       CSRFTOKEN : "createcsrf",
       COLABORADORESVER : "colaboradores-vertodos",
+      COLABORADORCREAR : "colaboradores-crear",
+      COLABORADORVER : "colaborador-editar",
+      COLABORADORUPDATE : "colaborador-update",
     },
     STORAGE: {
       TOKEN: "tokenspanel",
